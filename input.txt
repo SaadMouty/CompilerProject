@@ -2,5 +2,12 @@ product {
   name="Laptop"
   price=1200
   image="laptop.png"
-  details="Good"
+  details="High performance"
+}
+
+product {
+  name="Phone"
+  price=800
+  image="phone.png"
+  details="Amoled screen"
 }
