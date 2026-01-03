@@ -1,0 +1,15 @@
+<style>
+  .product-card { border: 1px solid #ccc; padding: 10px; }
+  .price { color: green; font-weight: bold; }
+</style>
+
+<div class="container">
+  <h1>قائمة المنتجات المتاحة</h1>
+  {% for product in products %}
+    <div class="product-card">
+      <img src="{{ product.image_url }}" />
+      <h3>{{ product.name }}</h3>
+      <p class="price">السعر: {{ product.price }}</p>
+    </div>
+  {% endfor %}
+</div>
